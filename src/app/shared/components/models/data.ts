@@ -12,4 +12,4 @@ export interface Icricketers{
     matchesPlayed: number;
     totalRuns: number;
     totalWickets: number;
-}
+} 
