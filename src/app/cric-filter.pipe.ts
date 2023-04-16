@@ -19,8 +19,8 @@ export class CricFilterPipe implements PipeTransform {
     }
 
     let filteredArray = value.filter(playerObj => {
-      return playerObj.country.toLowerCase().startsWith(searchText)
-    })
+      return playerObj.country.toLowerCase().startsWith(searchText.toLowerCase())
+    }) 
     return filteredArray
   }
 
